@@ -192,15 +192,4 @@ public class TestEuclideanDivision {
 		EuclideanDivision.divide(x, y);
 	}
 
-	/**
-	 * Test to see if dividing a negative int by zero throws an arithmetic
-	 * exception
-	 * 
-	 * FAIL
-	 */
-	@Test(expected = ArithmeticException.class)
-	public void DividingNegativeIntByZero() {
-		int x = 100, y = 0;
-		EuclideanDivision.divide(x, y);
-	}
 }
